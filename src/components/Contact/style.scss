@@ -1,0 +1,45 @@
+.firstpage {
+    h1 {
+        font-size: 4vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        text-align: center;
+        margin: auto auto;
+    }
+
+    // .text-gradient {
+    //     // background: linear-gradient(72deg, #212529 0%, #212529 30%, #800080 36%, #212529 40%, #212529 100%);
+    //     background: linear-gradient(28deg, #212529 0%, #212529 30%, #717171 43%, #878787 50%, #717171 55%, #212529 65%);
+    //     background-size: cover;
+    //     -webkit-background-clip: text;
+    //     -webkit-text-fill-color: transparent;
+    // }
+
+    .contactus-form {
+        border-radius: 15px;
+        padding: 2% 0;
+        margin: auto;
+        max-width: 30em;
+        border: 10px solid transparent;
+        backdrop-filter: blur(.5rem);
+        background-color: hsla(0,0%,88%,.25);
+    
+        h3 {
+            font-size: 2vw;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            color: #3a3a3a;
+            text-align: center;
+        }
+        .contact-heading-highlighted{
+            color: #800080;
+        }
+        input{
+            margin: 3px 0;
+        }
+        button{
+            margin: auto;
+        }
+    }
+}

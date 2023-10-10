@@ -1,0 +1,27 @@
+p{
+    color: #3a3a3a;
+}
+.firstpage{
+    h1{
+        font-size: 3.5vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        text-align: center;
+        // width: 76%;
+        margin: auto auto;
+    }
+    .text-gradient {
+        // background: linear-gradient(28deg, #212529 0%, #212529 30%, #717171 43%, #878787 50%, #717171 55%,#212529 65%);
+        background: linear-gradient(0deg, #212529 0%, #212529 45%, #717171 75%, #878787 85%, #717171 105%, #212529 130%);
+        background-size: cover;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .dummyCard{
+        width: 300px;
+        height: 225px;
+        background-color: aquamarine;
+        border-radius: 12px;
+    }
+}

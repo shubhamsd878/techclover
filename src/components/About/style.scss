@@ -1,0 +1,161 @@
+.firstPage {
+
+    // min-height: 90vh;
+    .leftAbout {
+        width: 53%;
+    }
+
+    .rightAboutImg {
+        // position: absolute;
+        // top: 20%;
+        // left: 15%;
+        width: 20%;
+        height: fit-content;
+        border-radius: 50%;
+        // filter: drop-shadow(2rem 2rem 2.5rem rgba(0, 0, 0, 0.15));
+        filter: drop-shadow(2rem 2rem 2.5rem rgba(173, 84, 1, 0.2));
+
+    }
+
+    .heading {
+        font-size: 2vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+    }
+
+    .text-bold {
+        font-size: 3vw;
+        filter: drop-shadow(0.1rem 0.1rem 0.15rem rgba(0, 0, 0, 0.25));
+    }
+
+}
+
+.about-text-content{
+    text-align: justify;
+}
+
+.secondPage {
+    min-height: 90vh;
+    padding-top: 3rem;
+
+    .passionContent {
+        margin-left: 15%;
+    }
+
+    .heading {
+        font-size: 2vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-style: underline;
+        color: #3a3a3a;
+
+        text-underline-position: under;
+        text-decoration-line: underline;
+    }
+
+    .text-gradient {
+        background: linear-gradient(90deg, #0074E4 0%, #00A5E0 100%);
+        background-size: cover;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .passionImg {
+        width: 900px;
+        height: 400px;
+        background-color: aquamarine;
+        border-radius: 12px;
+    }
+
+}
+
+.thirdPage{
+    min-height: 90vh;
+    .heading {
+        font-size: 2vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-style: underline;
+        color: #3a3a3a;
+
+        text-underline-position: under;
+        text-decoration-line: underline;
+    }
+    .passionImg {
+        width: 900px;
+        height: 400px;
+        background-color: aquamarine;
+        border-radius: 12px;
+    }
+}
+
+// .fourthPage{
+//     min-height: 90vh;
+//     .heading {
+//         font-size: 3vw;
+//         font-weight: bolder;
+//         letter-spacing: 1px;
+//         font-style: underline;
+//         color: #3a3a3a;
+
+//         // text-underline-position: under;
+//         // text-decoration-line: underline;
+//     }
+//     .passionImg {
+//         width: 900px;
+//         height: 400px;
+//         background-color: aquamarine;
+//         border-radius: 12px;
+//     }
+    
+// }
+
+.fourthPage {
+    min-height: 90vh;
+
+    .heading {
+        font-size: 3vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        // font-style: italic;
+        color: #3a3a3a;
+        // text-decoration: underline;
+        // text-decoration-color: #3a3a3a;
+    }
+
+    .passionImg {
+        width: 900px;
+        height: 400px;
+        background-color: aquamarine;
+        border-radius: 12px;
+    }
+
+    h6 {
+        font-weight: bold;
+        color: #3a3a3a;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #555555;
+        margin-top: 1rem;
+    }
+}
+
+.sixthPage{
+    min-height: 90vh;
+    .heading {
+        font-size: 52px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .dummyCard{
+        width: 150px;
+        height: 200px;
+        background-color: aquamarine;
+        border-radius: 12px;
+    }
+    
+}

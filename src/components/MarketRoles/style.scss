@@ -1,0 +1,54 @@
+.marketroles{
+    h1{
+        font-size: 4vw;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        text-align: center;
+        width: 76%;
+        margin: auto auto;
+        // width: ;
+    }
+    .top-text-gradient{
+        background: linear-gradient(90deg, #9B5DE5 0%, #FF6B6B 100%);
+        background-size: cover;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+    .secondPage{
+        h5{
+            font-size: 2vw;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            color: #3a3a3a;
+        }
+        p{
+            color: #3a3a3a;
+        }
+        .dummyCard{
+            width: 200px;
+            height: 270px;
+            background-color: aquamarine;
+            border-radius: 12px;
+        }
+    }
+    .thirdPage{
+        margin-top: 4rem;
+        h5{
+            font-size: 2vw;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            color: #3a3a3a;
+        }
+        p{
+            color: #3a3a3a;
+        }
+        .dummyCard{
+            width: 200px;
+            height: 270px;
+            background-color: aquamarine;
+            border-radius: 12px;
+        }
+    }
+}
