@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from 'react'
 import './style.scss'
+import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -23,6 +25,8 @@ const Contact = () => {
     };
 
     return (
+        <>
+        <Navbar />
         <div className='container firstpage'>
             <h1 className='mt-5 text-gradient'>We'd love to hear from you</h1>
             <hr className='mt-5' />
@@ -81,6 +85,8 @@ const Contact = () => {
             
 
         </div>
+         <Footer /> 
+        </>
     )
 }
 

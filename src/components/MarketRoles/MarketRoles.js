@@ -1,10 +1,14 @@
 import React from 'react'
 import './style.scss'
+import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
 const MarketAndRoles = () => {
   return (
-    <div className='marketroles container mt-5'>
+    <>
+      <Navbar />
+      <div className='marketroles container mt-5'>
         <h1> Empowering Industries, <br /><span className='top-text-gradient'> Shaping the Future - Your </span> <br /> Digital Transformation Partner</h1>
-        <hr className='my-5'/>
+        <hr className='my-5' />
 
         <div className='secondPage'>
           <h5 >Market Segment</h5>
@@ -35,7 +39,9 @@ const MarketAndRoles = () => {
 
           <p className='mt-5'>We invest heavily in these roles, understanding their criticality in driving business growth. Our approach ensures a high volume of quality candidates, enabling you to fill positions rapidly without compromising on talent quality.</p>
         </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   )
 }
 

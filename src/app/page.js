@@ -7,7 +7,7 @@ export default function page() {
     <main className={styles.main}>
       <Layout >
         <Home />
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </main>
   )

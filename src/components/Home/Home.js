@@ -3,11 +3,12 @@ import React from 'react'
 import './style.scss'
 import Typed from 'react-typed';
 import Navbar from '../Navbar/Navbar';
+import Footer from '@/components/Footer/Footer'
 import Image from 'next/image';
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className='home'>
         <div className='firstPage'>
           <img className='leftBannerImg' src='/images/banner-img-client.jpg' />
@@ -69,43 +70,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <div className='fifthPage container'>
-          <h1 className='heading text-gradient' >Your Partner for a successful Future</h1>
-          
-        </div> */}
-
-        {/* <div class="fifthPage container">
-          <h1 class="heading text-gradient">Your Partner for a Successful Future</h1>
-          <div class="vision-mission">
-            <div class="vision">
-              <img src="vision-image.jpg" alt="Vision Image" />
-                <h2>Our Vision</h2>
-                <p>At TechClover, we envision a vibrant Tech Ecosystem where Talent Thrives, and Businesses Flourish.</p>
-            </div>
-            <div class="mission">
-              <img src="mission-image.jpg" alt="Mission Image" />
-                <h2>Our Mission</h2>
-                <p>We are driven by a People-First Approach, dedicated to connecting the brightest tech talent with aspiring businesses. Our goal is to foster a symbiotic relationship where both talent and companies can achieve unparalleled success.</p>
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div class="fifthPage container">
-  <h1 class="heading text-gradient">Your Partner for a Successful Future</h1>
-  <div class="vision-mission">
-    <div class="card">
-      <img src="vision-image.jpg" alt="Vision Image" />
-      <h2>Our Vision</h2>
-      <p>At TechClover, we envision a vibrant Tech Ecosystem where Talent Thrives, and Businesses Flourish.</p>
-    </div>
-    <div class="card">
-      <img src="mission-image.jpg" alt="Mission Image" />
-      <h2>Our Mission</h2>
-      <p>We are driven by a People-First Approach, dedicated to connecting the brightest tech talent with aspiring businesses. Our goal is to foster a symbiotic relationship where both talent and companies can achieve unparalleled success.</p>
-    </div>
-  </div>
-</div> */}
-
         <div class="fifthPage container">
           <h1 class="heading text-gradient">Your Partner for a Successful Future</h1>
           <div class="vision-mission">
@@ -123,6 +87,7 @@ const Home = () => {
         </div>
 
       </div>
+      <Footer />
     </>
   )
 }

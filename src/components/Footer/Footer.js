@@ -6,7 +6,7 @@ import './style.scss'
 const Footer = () => {
     return (
         <footer>
-                <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <h4>Contact Us</h4>
@@ -53,8 +53,8 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-        </div>
-            </footer>
+            </div>
+        </footer>
     )
 }
 

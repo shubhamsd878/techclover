@@ -1,9 +1,12 @@
 import React from 'react'
 import './style.scss'
+import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
 
 const About = () => {
     return (
         <>
+        <Navbar />
         <div className='container'>
             <div className='firstPage d-flex justify-content-around align-items-center mt-5'>
                 <h1 className='heading'>Meet Our Founder & Director: <br /> <span className='text-bold'>Sapna Oberai</span></h1>
@@ -77,6 +80,7 @@ const About = () => {
 
             </div>
         </div>
+        <Footer />
         </>
     )
 }
