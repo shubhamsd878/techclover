@@ -4,11 +4,12 @@ import './style.scss'
 const About = () => {
     return (
         <>
-            <div className='firstPage container d-flex justify-content-around align-items-center mt-5'>
+        <div className='container'>
+            <div className='firstPage d-flex justify-content-around align-items-center mt-5'>
                 <h1 className='heading'>Meet Our Founder & Director: <br /> <span className='text-bold'>Sapna Oberai</span></h1>
                 <img className='rightAboutImg' src='/images/about-img-client.png' />
             </div>
-            <p className='about-text-content container mt-5 '>
+            <p className='about-text-content mt-5 '>
                 At TechClover, our story is woven together by the vision and leadership of Sapna Oberai, the driving force behind our success. With a remarkable career spanning 15 years in HR and staffing, Sapna has honed her expertise in Talent Acquisition and consulting to perfection.
                 <br /> <br />
                 Sapna's journey is marked by the successful placement of numerous senior and directorial positions, a testament to her prowess as an executive search recruiter. Her commitment to finding the right talent for your organization is unwavering.
@@ -23,7 +24,7 @@ const About = () => {
             </p>
 
 
-            <div className='secondPage container ms-5 '>
+            <div className='secondPage ms-5 '>
                 <div className='passionContent d-flex align-items-center'>
                     <img className='passionImg' />
                     <div className='ms-4'>
@@ -34,7 +35,7 @@ const About = () => {
             </div>
 
 
-            <div className='thirdPage container'>
+            <div className='thirdPage'>
                 <div className='approachContent d-flex align-items-center'>
                     <div className='ms-4'>
                         <h1 className='heading ms-3'>Our Approach</h1>
@@ -50,7 +51,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='fourthPage container ms-5 '>
+            <div className='fourthPage ms-5 '>
                 <div className='passionContent d-flex align-items-center'>
                     <img className='passionImg' />
                     <div className='ms-4'>
@@ -64,7 +65,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='sixthPage container'>
+            <div className='fifthPage '>
                 <h1 className='heading text-gradient' >Our Values</h1>
                 <div className='d-flex mt-5 mx-5 justify-content-around space-between mt-4'>
                     <div className='dummyCard'></div>
@@ -75,6 +76,7 @@ const About = () => {
                 </div>
 
             </div>
+        </div>
         </>
     )
 }

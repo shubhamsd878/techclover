@@ -1,1 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+@media screen and (min-width: 1600px) {
+    p{
+        font-size: 1.3rem;
+    }
+    h6{
+        font-size: 22px;
+    }
+}

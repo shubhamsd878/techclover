@@ -13,7 +13,7 @@ const Serviceportfolio = () => {
                 Recognizing the diverse and tailor-made requirements across various departments and business segments, TechClover offers 4 unique permanent search solutions designed to align with our client needs.
                 </p>
 
-                <div className='d-flex mt-4 justify-content-between mt-4'>
+                <div className='cards d-flex mt-4 justify-content-between mt-4'>
                     <div className='dummyCard'></div>
                     <div className='dummyCard'></div>
                     <div className='dummyCard'></div>

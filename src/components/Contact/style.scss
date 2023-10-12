@@ -42,4 +42,31 @@
             margin: auto;
         }
     }
+
+    @media screen and (min-width: 1600px) {
+        margin-bottom: 5em;
+        h1 {
+            font-size: 4vw;
+        }
+
+        .contactus-form {
+            padding: 4% 1%;
+            max-width: 45em;
+        
+            h3 {
+                font-size: 2.5vw;
+            }
+            .contact-heading-highlighted{
+                color: #800080;
+            }
+            input{
+                margin: 3px 0;
+                font-size: 1.2em;
+                padding: 0.5em;
+            }
+            button{
+                margin: auto;
+            }
+        }
+    }
 }

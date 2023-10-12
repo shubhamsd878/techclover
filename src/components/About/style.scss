@@ -40,7 +40,7 @@
     padding-top: 3rem;
 
     .passionContent {
-        margin-left: 15%;
+        // margin-left: 15%;
     }
 
     .heading {
@@ -90,27 +90,6 @@
     }
 }
 
-// .fourthPage{
-//     min-height: 90vh;
-//     .heading {
-//         font-size: 3vw;
-//         font-weight: bolder;
-//         letter-spacing: 1px;
-//         font-style: underline;
-//         color: #3a3a3a;
-
-//         // text-underline-position: under;
-//         // text-decoration-line: underline;
-//     }
-//     .passionImg {
-//         width: 900px;
-//         height: 400px;
-//         background-color: aquamarine;
-//         border-radius: 12px;
-//     }
-    
-// }
-
 .fourthPage {
     min-height: 90vh;
 
@@ -143,7 +122,7 @@
     }
 }
 
-.sixthPage{
+.fifthPage{
     min-height: 90vh;
     .heading {
         font-size: 52px;
@@ -157,5 +136,89 @@
         background-color: aquamarine;
         border-radius: 12px;
     }
+}
+
+@media screen and (min-width: 1600px) {
+    .firstPage {
+        padding-top: 1em;
+        .leftAbout {
+            width: 53%;
+        }
+        .rightAboutImg {
+            width: 25%;
+        }
+        .heading {
+            font-size: 2.2vw;
+            letter-spacing: 1px;
+        }
+        .text-bold {
+            font-size: 3vw;
+        }
+    }
+    .about-text-content{
+        margin-top: 2.5em !important;
+        hr{
+            margin-top: 1.5em !important;
+        }
+    }
+
+    .secondPage {
+        min-height: 80vh;
+        padding-top: 5em;
+        .passionContent {
+            // margin-left: 15%;
+        }
+        .heading {
+            font-size: 2.5vw;
+            margin-bottom: 1em;
+        }
+        .passionImg {
+            width: 1000px;
+            height: 450px;
+        }
+    }
     
+    .thirdPage{
+        min-height: 90vh;
+        padding-top: 5em;
+        font-size: 1.3rem;
+        .heading {
+            font-size: 2.5vw;
+            margin-bottom: 1em;
+        }
+        .passionImg {
+            width: 1000px;
+            height: 450px;
+            border-radius: 12px;
+        }
+    }
+    
+    .fourthPage {
+        min-height: 90vh;
+        .heading {
+            font-size: 2.5vw;
+        }
+        .passionImg {
+            width: 1000px;
+            height: 450px;
+        }
+        h6 {
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+    }
+    
+    .fifthPage{
+        min-height: 70vh;
+        .heading {
+            font-size: 52px;
+        }
+        .dummyCard{
+            width: 210px;
+            height: 280px;
+        }
+    }
 }

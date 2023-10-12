@@ -71,7 +71,6 @@ const Contact = () => {
                         <input class="form-control me-2" required="" type="tel" name="cpassword" id="cpassword" placeholder="Email" aria-label="password" />
                         <input class="form-control me-2 float-left  " type="email" required="" id="password" name="password" placeholder="Phone No." aria-label="password" />
                     </div>
-                    {/* <input class="form-control me-2 " type="email" required="" name="email" placeholder="email" /> */}
                     <textarea class="form-control mt-1 me-2 " rows="5" type="text" required="" name="message" placeholder="How can I help?" />
                     <br />
                     <div style={{display: 'flex', justifyContent: 'center'}}>

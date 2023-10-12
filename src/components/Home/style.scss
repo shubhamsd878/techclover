@@ -42,7 +42,6 @@
             cursor: pointer;
         }
     }
-
     .secondPage{
         min-height: 90vh;
         position: relative;
@@ -51,7 +50,6 @@
             height: fit-content;
             filter: drop-shadow(2rem 2rem 2.5rem rgba(0, 116, 228, 0.15));
         }
-
         .heading {
             font-size: 52px;
             font-weight: 700;
@@ -62,7 +60,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-
     }
     
     .thirdPage{
@@ -101,71 +98,7 @@
             background-color: aquamarine;
             border-radius: 12px;
         }
-
     }
-
-    // .fifthPage{
-    //     min-height: 90vh;
-    //     .heading {
-    //         font-size: 52px;
-    //         font-weight: 700;
-    //         text-align: center;
-    //     }
-    //     .dummyCard{
-    //         width: 200px;
-    //         height: 270px;
-    //         background-color: aquamarine;
-    //         border-radius: 12px;
-    //     }
-
-    // }
-
-    // .fifthPage {
-    //     min-height: 90vh;
-    //     text-align: center;
-    //     padding: 40px 0;
-        
-    //     .heading {
-    //       font-size: 52px;
-    //       font-weight: 700;
-    //     }
-      
-    //     .vision-mission {
-    //       display: flex;
-    //       justify-content: space-around;
-    //       align-items: center;
-    //       margin-top: 40px;
-          
-    //       .card {
-    //         flex: 1;
-    //         margin: 20px;
-    //         padding: 20px;
-    //         background-color: #fff;
-    //         border-radius: 12px;
-    //         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    //         text-align: center;
-            
-    //         img {
-    //           width: 100px;
-    //           height: 100px;
-    //           border-radius: 50%;
-    //           margin-bottom: 20px;
-    //         }
-      
-    //         h2 {
-    //           font-size: 24px;
-    //           margin-bottom: 10px;
-    //           color: #333;
-    //         }
-      
-    //         p {
-    //           font-size: 16px;
-    //           line-height: 1.5;
-    //           color: #777;
-    //         }
-    //       }
-    //     }
-    //   }
       
     .fifthPage {
         min-height: 90vh;
@@ -225,6 +158,94 @@
         }
     }
 
+    @media screen and (min-width: 1600px) {
+        .firstPage{
+            min-height: 80vh;
+        }
+        .leftBannerImg{
+            top: 20%;
+            left: 16%;
+            width: 20%;
+        }
+        .rightHeading{
+            position: absolute;
+            top: 10%;
+            .typedHeading{
+                font-size: 5vw;
+            }
+            .typed-text {
+                font-size: 2.5vw;
+            }
+            .typed-paragraph {
+                line-height: 1.4;
+                margin-top: 20px;
+            }
+        }
+        .secondPage{
+            min-height: 80vh;
+        }
+        .thirdPage{
+            min-height: 80vh;
+            .heading {
+                font-size: 52px;
+                font-weight: 700;
+                text-align: center;
+            }
+            .dummyCard{
+                width: 350px;
+                height: 450px;
+                margin-top: 2em !important;
+            }
+        }
+        
+        .fourthPage{
+            min-height: 80vh;
+            .dummyCard{
+                width: 230px;
+                height: 310px;
+                background-color: aquamarine;
+                border-radius: 12px;
+            }
+        }
+
+        .fifthPage {
+            min-height: 80vh;
+            padding: 40px 0;
+
+            .vision-mission {
+              margin-top: 40px;
+          
+              .card {
+                flex: 1;
+                margin: 20px;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 12px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                text-align: center;
+          
+                img {
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 50%;
+                  margin-bottom: 20px;
+                }
+          
+                h2 {
+                  font-size: 24px;
+                  margin-bottom: 10px;
+                  color: #333;
+                }
+          
+                p {
+                  font-size: 16px;
+                  line-height: 1.5;
+                  color: #777;
+                }
+              }
+            }
+        }
+    }
     
       
 }

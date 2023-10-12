@@ -9,7 +9,7 @@ const MarketAndRoles = () => {
         <div className='secondPage'>
           <h5 >Market Segment</h5>
           <p className=''>- Our primary focus is on sourcing talents across these four key digital tech sectors, each offering unique skills–</p>
-          <div className='d-flex mt-4 justify-content-between space-between mt-4'>
+          <div className='cards d-flex mt-4 justify-content-between space-between mt-4'>
             <div className='dummyCard'></div>
             <div className='dummyCard'></div>
             <div className='dummyCard'></div>
@@ -25,7 +25,7 @@ const MarketAndRoles = () => {
           <h5 >Role Segment</h5>
           <p>- At TechClover, we’re committed to transforming the tech talent landscape. We understand that every role is pivotal, and we’re here to help you secure the right fit.</p>
           <p>Our Expertise</p>
-          <div className='d-flex mt-4 justify-content-between space-between mt-4'>
+          <div className='cards d-flex mt-4 justify-content-between space-between mt-4'>
             <div className='dummyCard'></div>
             <div className='dummyCard'></div>
             <div className='dummyCard'></div>

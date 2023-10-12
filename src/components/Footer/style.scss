@@ -1,76 +1,143 @@
+$footer-bg-color: #fbfbfb;
+$footer-text-color: #333;
+$footer-link-color: #777;
+
 footer {
-    position: relative !important;
-    background-color: #fbfbfb;
-    padding: 30px 0;
-    padding-top: 50px;
-  }
-  
-  footer h4 {
-    color: #333;
+  position: relative !important;
+  background-color: $footer-bg-color;
+  padding: 30px 0;
+  padding-top: 50px;
+
+  h4 {
+    color: $footer-text-color;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
   }
-  
-  footer ul {
+
+  ul {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        color: $footer-link-color;
+
+        &:hover {
+          color: $footer-text-color;
+        }
+      }
+    }
   }
-  
-  footer ul li {
-    margin-bottom: 10px;
-  }
-  
-  footer ul li a {
-    color: #777;
-  }
-  
-  footer ul li a:hover {
-    color: #333;
-  }
-  
-  footer hr {
+
+  hr {
     border-top: 1px solid #ddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
-  
-  footer p {
+
+  p {
     margin: 0;
     font-size: 14px;
-    color: #777;
+    color: $footer-link-color;
   }
-  
-  footer ul.list-inline {
+
+  ul.list-inline {
     margin: 0;
     padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a i {
+        font-size: 24px;
+        color: $footer-link-color;
+
+        &:hover {
+          color: $footer-text-color;
+        }
+      }
+    }
   }
-  
-  footer ul.list-inline li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  footer ul.list-inline li:last-child {
-    margin-right: 0;
-  }
-  
-  footer ul.list-inline li a i {
-    font-size: 24px;
-    color: #777;
-  }
-  
-  footer ul.list-inline li a i:hover {
-    color: #333;
-  }
-  
-  @media (max-width:767px) {
-    footer h4 {
+
+  @media (max-width: 767px) {
+    h4 {
       margin-top: 1em;
     }
-    .row > .col-md-4:first-child > h4 {
-      margin-top: 0px;
+
+    .row>.col-md-4:first-child>h4 {
+      margin-top: 0;
     }
   }
-  
+
+  @media screen and (min-width: 1600px) {
+    padding: 30px 0;
+    padding-top: 50px;
+    font-size: 1.3rem;
+
+    h4 {
+      font-size: 25px;
+      margin-bottom: 27px;
+    }
+
+    ul {
+
+      li {
+        margin-bottom: 16px;
+
+        a {
+          color: $footer-link-color;
+
+          &:hover {
+            color: $footer-text-color;
+          }
+        }
+      }
+    }
+
+    hr {
+      border-top: 1px solid #ddd;
+      margin: 20px 0;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.3rem;
+      color: $footer-link-color;
+    }
+
+    ul.list-inline {
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a i {
+          font-size: 24px;
+          color: $footer-link-color;
+
+          &:hover {
+            color: $footer-text-color;
+          }
+        }
+      }
+    }
+
+    .footer-bottom{
+      margin-top: 3em;
+    }
+  }
+}
